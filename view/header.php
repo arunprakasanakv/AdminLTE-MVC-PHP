@@ -36,7 +36,7 @@ landing_page_session_check();
             <ul class="dropdown-menu">
               <li class="user-header">
                 <img src="../img/photo.jpeg " class="img-circle" alt="User Image">
-                <h2><?php echo $_SESSION['user']['name']?></h2>
+                <h2>User name</h2>
               </li>
               <li class="user-footer">
                 <div class="pull-right">
@@ -53,9 +53,9 @@ landing_page_session_check();
   <aside class="main-sidebar">
       <section class="sidebar">
         <ul class="sidebar-menu">
-          <li><a href="post_question.php"><i class="fa fa-circle-o text-green "></i> <span>Post Questions</span></a></li>
-          <li><a href="update_question.php"><i class="fa fa-circle-o text-red "></i> <span>Question Update</span></a></li>
-          <li><a href="update_answer.php"><i class="fa fa-circle-o text-blue "></i> <span> Answers Update</span></a></li>
+          <li><a href="#"><i class="fa fa-circle-o text-green "></i> <span>item 1</span></a></li>
+          <li><a href="#"><i class="fa fa-circle-o text-green "></i> <span>item 2</span></a></li>
+          <li><a href="#"><i class="fa fa-circle-o text-green "></i> <span>item 3</span></a></li>
         </ul>
       </section>
   </aside>
